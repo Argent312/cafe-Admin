@@ -1,0 +1,230 @@
+body{
+
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+    font-family: 'Lato', sans-serif;
+}
+
+.navegador{
+    //background-image: url("https://mdn.mozillademos.org/files/6457/mdn_logo_only_color.png");
+    background-image: url("/../images/background.jpg");
+    opacity: 1.6;
+    height: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+/*Globales*/
+h1{
+    text-align: center;
+    font-size: 8vh;
+}
+h2{
+    text-align: center;
+    font-size: 6vh;
+}
+h3{
+    text-align: center;
+    font-size: 6vh;
+    margin-top: 5vh;
+}
+/*Navegador*/
+.navbar{
+    a{
+        font-size: 4vh;
+    }
+    li a{
+        font-size: 1rem !important;
+        text-align: center;
+        &:hover{
+            font-size: 1.5rem!important;
+        }
+    }
+}
+
+.carrusel{
+    margin-top: 3vh;
+    margin-bottom: 5vh !important;
+}
+/*Main*/
+/*Informacion del cafe*/
+.info{
+    
+    img{
+        margin-bottom: 1rem;
+    }
+    p{
+        font-size: 1rem;
+        text-align: justify;
+    }
+}
+
+/*Horario*/
+.horario{
+    text-align: center;
+    li{
+        list-style: none;
+        font-size: 3vh;
+        width: 100%;
+        margin-bottom: 1vh;
+        
+    }
+    span{
+        font-size: 2vh;
+        color: black;
+        margin-top: 2vh;
+        //float: center;
+        width: 60%;
+    }
+}
+
+/*Mejores Productos*/
+.best img{
+    margin-top: 2vh;
+    border: 1vh solid brown;
+}
+
+/*Mapa*/
+#map { height: 60vh; }
+
+/*Productos*/
+.productos{
+    ul{
+        list-style: none;
+        
+    }
+    li{
+        font-size: 2vh;
+        border: 1vh solid brown;
+        margin-bottom: 2vh;
+        text-align: center;
+        max-width: 100%;
+        img{
+            width: 100%;
+        }
+    }
+
+    .descripcion{
+        position:absolute;
+        top:0;
+        left:2;
+        z-index:-1;
+        padding:10px;
+        margin:0;
+        text-align: center;
+        max-width: 80%;
+    }
+    .desvanecer:hover{
+        opacity: 0.07;
+        -webkit-transition: opacity 500ms;
+        -moz-transition: opacity 500ms;
+        -o-transition: opacity 500ms;
+        -ms-transition: opacity 500ms;
+        transition: opacity 500ms;
+    }
+}
+
+/*Footer*/
+.footer{
+    .logo{
+        width: 100%;
+        color: black;
+    }
+    .logos-footer{
+        p{
+            font-size: 4vh;
+            color: brown;
+        }
+        i{
+            font-size: 7vh;
+            margin-right: 2vh;
+            color: brown;
+        }
+    }
+
+    .datos-footer{
+        li a{
+            color: black;
+            padding-bottom: 4vh;
+            &:hover{
+                font-size: 1.5rem!important;
+            }
+        }    
+    
+    }
+    .logos-datos{
+        margin-top: 1vh;
+        max-width: 100%;
+
+        a{
+            margin-top: 1vh;
+            color: brown;
+        }
+        i{
+            font-size: 2.5vh;
+        }
+        span{
+            color: black;
+        }
+    }
+}
+
+/**Nosotros**/
+
+.equipo{
+    
+    .integrantes{
+        img{
+            border-radius: 2em;
+            
+
+            &:hover{
+                -webkit-filter: grayscale(100%);
+                -webkit-transition: all 1.5s ease;
+
+                
+            } 
+        }
+
+        .info{
+            padding: .5rem;
+            visibility: hidden;
+            border-radius: .5rem;
+            bottom: 0;
+            z-index: 10;
+            max-width: 85%;
+            background-color: black;
+            color: white;
+            
+        }
+        
+        .caja:hover .info{
+            visibility:visible;
+        }
+    }
+}
+
+/**Contacto**/
+.datos-contacto{
+    .centra{
+        text-align: center;
+        color: brown;
+        .principal{
+            font-size: 5vh;
+        }
+        i{
+            display: block;
+            font-size: 2.5vh;
+            margin-top: 1vh;
+        }
+        
+    }
+}
+
+/*Provedores*/
+.socios{
+    .row{
+        justify-content: center;
+    }
+}

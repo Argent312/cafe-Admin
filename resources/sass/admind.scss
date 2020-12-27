@@ -1,0 +1,31 @@
+$blue : #1111E8;
+$brown : brown;
+$black : black;
+$font : white;
+
+body{
+    background-color: $font;
+    font-size: 2vh;
+}
+
+/**Index Administrador**/
+.opciones{
+    text-align: center;
+
+    a{
+        color: $black;
+        font-size: 2.5vh;
+    }
+    img{
+        max-width: 100%;
+        display: block;
+    }
+}
+
+/*Edit*/
+label{
+    font-size: 2.5vh;
+}
+.boton-edit{
+    text-align: center;
+}

@@ -1,0 +1,31 @@
+body {
+  background-color: white;
+  font-size: 2vh;
+}
+
+/**Index Administrador**/
+
+.opciones {
+  text-align: center;
+}
+
+.opciones a {
+  color: black;
+  font-size: 2.5vh;
+}
+
+.opciones img {
+  max-width: 100%;
+  display: block;
+}
+
+/*Edit*/
+
+label {
+  font-size: 2.5vh;
+}
+
+.boton-edit {
+  text-align: center;
+}
+
